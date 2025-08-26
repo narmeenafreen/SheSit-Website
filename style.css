@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600..700&&display=swap');
+
+.logo {
+    font-size: 2.5rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+    margin-bottom: 0;
+    /* remove gap below */
+    line-height: 1;
+    /* tighter line spacing */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300&display=swap');
+
+.logotext {
+    font-size: 5rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+    /* remove gap above */
+    line-height: 1;
+    /* tighter line spacing */
+}
+
+.pink {
+    color: #e75485 !important;
+}
+
+.beige {
+    color: #fdfdd5 !important;
+}
+
+.pinkbg {
+    background-color: #e75485 !important;
+}
+
+.beigebg {
+    background-color: #fdfdd5 !important;
+}
+
+.charcoal {
+    color: #333333;
+}
+.purple{
+    color: rgb(49, 0, 59);
+}
+h1 {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(49, 0, 59);
+  font-size: clamp(2.5rem, 5vw, 3.8rem);
+  /* Responsive: min 40px, max ~61px */
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(49, 0, 59);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  /* Responsive: min 29px, max ~42px */
+  line-height: 1.3;
+}
+
+h3 {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(49, 0, 59);
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
+  /* Responsive: min 20px, max ~24px */
+  line-height: 1.2;
+}
+
+p {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(12, 11, 15);
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  /* Responsive: min 16px, max ~19px */
+  line-height: 1.6;
+}
+#First.bg {
+    background-image: url('bg1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.circle-highlight {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-weight: bold;
+    background: transparent;
+}
+.visitbutton{
+    border-radius: 10px;
+    border: solid 2px #fdfdd5; 
+    background-color: rgb(49, 0, 59);
+    color: #fdfdd5 ;
+}
+.visitbutton:hover{
+    border-radius: 10px;
+    border: solid 2px  #31003b !important; 
+    background-color: #fdfdd5 !important;
+    color: rgb(49, 0, 59) !important;
+    transform: scale(1.025);
+}
+#Second.bg {
+    background-image: url('bg22.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Third.bg {
+    background-image: url('bg3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Fourth.bg {
+    background-image: url('bg4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Fifth.bg {
+    background-image: url('bg5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aboutpic{
+    border-radius: 50%;
+    border: 7px solid #fdfdd5;
+}
+#Sixth.bg {
+    background-image: url('bg6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-card {
+    border-radius: 0%;
+    overflow: hidden;
+    position: relative;
+    max-width: 280px;   /* limit width */
+    margin: 0 auto;     /* center align */
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;       /* keep aspect ratio */
+    object-fit: cover;  /* crop nicely */
+}
+
+.overlay-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(171, 101, 79, 0.8);
+    color: white;
+    border-radius: 0%;
+}
+#homefooter.footer {
+  background-color: #ab654f;
+  color: #ffffff;
+  padding: 3rem 1.25rem;
+}
+
+#homefooter.footer a {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+#homefooter.footer a:hover {
+  text-decoration: underline;
+}
+
+#homefooter.footer .footer-btn {
+  background-color: #fff;
+  color: #ab654f;
+  font-weight: 600;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+
+#homefooter.footer .footer-btn:hover {
+  background-color: #f1f1f1;
+  color: #7c4637;
+}
+
+#homefooter.footer .icon,
+#homefooter.footer i {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
